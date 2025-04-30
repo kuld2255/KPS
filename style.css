@@ -1,0 +1,157 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #e1ecf4;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive menu button */
+#menu-toggle {
+    display: none;
+    background: none;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    margin-left: auto;
+  }
+  
+  /* Responsive nav menu */
+  .nav-menu {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    #menu-toggle {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      background-color: #003366;
+      padding: 1rem;
+    }
+  
+    .nav-menu.show {
+      display: flex;
+    }
+  }
+  
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+        .projects-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 2rem;
+          font-family: Arial, sans-serif;
+          font-size: 16px;
+        }
+      
+        .projects-table th,
+        .projects-table td {
+          border: 1px solid #ccc;
+          padding: 12px 15px;
+          text-align: left;
+        }
+      
+        .projects-table th {
+          background-color: #f4f4f4;
+          color: #333;
+        }
+      
+        .projects-table tbody tr:nth-child(even) {
+          background-color: #fafafa;
+        }
+      
+        @media screen and (max-width: 768px) {
+          .projects-table, .projects-table thead, .projects-table tbody, .projects-table th, .projects-table td, .projects-table tr {
+            display: block;
+            width: 100%;
+          }
+      
+          .projects-table thead tr {
+            display: none;
+          }
+      
+          .projects-table tr {
+            margin-bottom: 1.5rem;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: #fff;
+          }
+      
+          .projects-table td {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 10px;
+            border: none;
+            border-bottom: 1px solid #eee;
+          }
+      
+          .projects-table td::before {
+            content: attr(data-label);
+            font-weight: bold;
+            color: #555;
+            flex-basis: 50%;
+          }
+        }
+    
