@@ -1,0 +1,53 @@
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - KPS Enviro Tech Pvt. Ltd.</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navList = document.querySelector('nav ul');
+      menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('show');
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>KPS Enviro Tech Pvt. Ltd.</h1>
+    <button id="menu-toggle">☰</button>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="fade-in">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Door-to-Door Waste Collection</li>
+        <li>Source Segregation</li>
+        <li>Street Sweeping & Drain De-silting</li>
+        <li>Composting: Pit, Vermi, Windrow</li>
+        <li>Material Recovery Facility (MRF)</li>
+        <li>RDF Production & Inert Waste Management</li>
+        <li>IEC & Mass Awareness Campaigns</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 KPS Enviro Tech Pvt. Ltd. | info.kpsenviro@gmail.com | +91-9005007868</p>
+  </footer>
+</body>
+</html>

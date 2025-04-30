@@ -1,0 +1,156 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - KPS Enviro Tech Pvt. Ltd.</title>
+  <link rel="stylesheet" href="style.css">
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuToggle = document.getElementById('menu-toggle');
+      const navList = document.querySelector('nav ul');
+      menuToggle.addEventListener('click', () => {
+        navList.classList.toggle('show');
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>KPS Enviro Tech Pvt. Ltd.</h1>
+    <button id="menu-toggle">☰</button>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="fade-in">
+      <h2>Our Projects</h2>
+      <p>KPS has active waste management projects in towns like Champavat, Kelakheda, Tanakpur, and more, involving skilled manpower and vehicle fleets including mini tippers, e-rickshaws, handcarts, and tractors. We also provide dedicated manpower outsourcing services.</p>
+            
+      <h2>MSW Collection & Transportation Projects</h2>
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Start Date</th>
+            <th>Location</th>
+            <th>Population</th>
+            <th>Vehicles/Tools Deployed</th>
+            <th>Manpower</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Start Date">Jan-2019</td>
+            <td data-label="Location">Champavat Nagar Palika Parishad</td>
+            <td data-label="Population">20,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-3, Handcart-12, Tractor Trolly-1</td>
+            <td data-label="Manpower">25</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Apr-2019</td>
+            <td data-label="Location">Kelakheda Nagar Panchayat</td>
+            <td data-label="Population">18,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-1, Handcart-6, Tractor Trolly-1</td>
+            <td data-label="Manpower">36</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Mar-2019</td>
+            <td data-label="Location">Tanakpur Nagar Panchayat</td>
+            <td data-label="Population">30,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-2, E-riksha-4, Handcart-8, Trolly-1</td>
+            <td data-label="Manpower">39</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Apr-2019</td>
+            <td data-label="Location">Dineshpur Nagar Panchayat</td>
+            <td data-label="Population">22,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-2, E-riksha-2, Handcart-8, Trolly-1</td>
+            <td data-label="Manpower">16</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Apr-2019</td>
+            <td data-label="Location">CHILIYANAULA Nagar Palika</td>
+            <td data-label="Population">8,500</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-1, Handcart-6, Trolly-1</td>
+            <td data-label="Manpower">12</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Feb-2021</td>
+            <td data-label="Location">Gularbhoj Nagar Panchayat</td>
+            <td data-label="Population">15,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-1, Riksha-10, Dumper-1, Handcart-12</td>
+            <td data-label="Manpower">20</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Jan-2019</td>
+            <td data-label="Location">Kichha Nagar Palika Parishad</td>
+            <td data-label="Population">1,20,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-18, Handcart-35, Tractor Trolly-4</td>
+            <td data-label="Manpower">120</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Mar-2019</td>
+            <td data-label="Location">Bhikiyasain Nagar Panchayat</td>
+            <td data-label="Population">12,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-2, Handcart-8, Tractor Trolly-1</td>
+            <td data-label="Manpower">12</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Apr-2019</td>
+            <td data-label="Location">Dwarahat Nagar Panchayat</td>
+            <td data-label="Population">10,000</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-1, Dumper-1, Handcart-6</td>
+            <td data-label="Manpower">15</td>
+          </tr>
+          <tr>
+            <td data-label="Start Date">Mar-2019</td>
+            <td data-label="Location">Jalali Nagar Panchayat</td>
+            <td data-label="Population">5,000 HH</td>
+            <td data-label="Vehicles/Tools Deployed">Minitipper-1, Handcart-9, Tractor Trolly-1</td>
+            <td data-label="Manpower">12</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>Manpower Outsourcing Services</h2>
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Start Date</th>
+            <th>Location</th>
+            <th>Manpower Deployed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Start Date">Jan-2019</td><td data-label="Location">Kashipur Nagar Nigam</td><td data-label="Manpower">64</td></tr>
+          <tr><td data-label="Start Date">Mar-2019</td><td data-label="Location">Gularbhoj Nagar Panchayat</td><td data-label="Manpower">08</td></tr>
+          <tr><td data-label="Start Date">Apr-2019</td><td data-label="Location">Kelakhera Nagar Panchayat</td><td data-label="Manpower">04</td></tr>
+          <tr><td data-label="Start Date">Mar-2019</td><td data-label="Location">Gangolihat Nagar Palika Parishad</td><td data-label="Manpower">05</td></tr>
+          <tr><td data-label="Start Date">Apr-2019</td><td data-label="Location">Kemri Nagar Panchayat</td><td data-label="Manpower">94</td></tr>
+        </tbody>
+      </table>
+      
+      <h2>MSW Processing & Disposal Projects</h2>
+      <p style="font-family: Arial, sans-serif; font-size: 16px;">
+        Projects under this category include compost recovery, biogas recovery, dry/wet waste treatment, IEC for mass awareness,
+        and both centralized and decentralized processing models. Site-specific details can be added as needed.
+      </p>
+      
+
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 KPS Enviro Tech Pvt. Ltd. | info.kpsenviro@gmail.com | +91-9005007868</p>
+  </footer>
+</body>
+</html>

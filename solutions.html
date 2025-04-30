@@ -1,0 +1,49 @@
+<!-- solutions.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us - KPS Enviro Tech Pvt. Ltd.</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navList = document.querySelector('nav ul');
+            menuToggle.addEventListener('click', () => {
+              navList.classList.toggle('show');
+            });
+          });
+        </script>
+      </head>
+<body>
+    <header>
+        <h1>KPS Enviro Tech Pvt. Ltd.</h1>
+        <button id="menu-toggle">☰</button>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  <main>
+    <section class="fade-in">
+      <h2>Our Solutions</h2>
+      <ul>
+        <li>Source Segregation & Public Education</li>
+        <li>Biodegradable Waste Composting</li>
+        <li>Bio-Methanation & Biogas Recovery</li>
+        <li>Recycling & RDF Production</li>
+        <li>Landfill and Inert Waste Disposal</li>
+      </ul>
+    </section>
+  </main>
+  <footer>...</footer>
+</body>
+</html>
