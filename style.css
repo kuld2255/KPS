@@ -1,4 +1,33 @@
 /* style.css */
+
+/* Background logo */
+body {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px; /* adjust size */
+  opacity: 0.1; /* makes it subtle */
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Company name */
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Logo at top-right */
+header .logo {
+  width: 80px; /* adjust size */
+  height: auto;
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
